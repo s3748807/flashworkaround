@@ -1,7 +1,7 @@
 Flash Workaround for Windows 10 using Mozilla Firefox v84.0.2 and Flash v32.0.0.314
 ================================
 
-**Since Adobe no longer supports Flash Player after 31 December 2020 and blocked Flash content from running in Flash Player beginning 12 January 2021, Adobe strongly recommends all users immediately uninstall Flash Player to help protect their systems. The following workaround is unofficial and not associated with Adobe or Flash in any way.  I assume no responsibility or liability for any issues resulting from the implementation of this workaround. The information contained in this repo is provided on an "as is" basis with no guarantees of completeness, accuracy or functionality.**
+**Since Adobe no longer supports Flash Player after 31 December 2020 and blocked Flash content from running in Flash Player beginning 12 January 2021, Adobe strongly recommends all users immediately uninstall Flash Player to help protect their systems. The following workaround is unofficial and not associated with Adobe Flash or Mozilla Firefox in any way.  I assume no responsibility or liability for any issues resulting from the implementation of the instructions. The information contained in this repo is provided on an "as is" basis with no guarantees of completeness, accuracy or functionality.  Use at your own risk.**
 
 This repo provides a temporary workaround for continued use of Flash using Mozilla Firefox v84.0.2 and Flash v32.0.0.314, tested on Microsoft Windows 10 Education OS version 10.0.18362 Build 18362.  
 
