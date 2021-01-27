@@ -8,7 +8,7 @@ This repo provides a temporary workaround for continued use of Flash using Mozil
 Installation of Windows update 'KB4577586 - Adobe Flash Removal Update for Windows' will most likely prevent this solution from working, so ensure that this has not been applied to your system. Once applied, this update cannot be uninstalled. More information regarding the update can be found at https://support.microsoft.com/en-us/topic/update-for-the-removal-of-adobe-flash-player-october-27-2020-931521b9-075a-ce54-b9af-ff3d5da047d5 
 
 Synopsis
-========
+--------
 
 This is a workaround that provides instructions to completely uninstall existings versions of Flash and Mozilla Firefox on Windows 10 before reinstalling an archived version of Flash and Firefox that are provided in this repo.  
 
@@ -34,7 +34,7 @@ Installation
 7. (Optional) Create a folder in the Mozilla root install directory called distribution (i.e. 'C:\Program Files\Legacy Mozilla Firefox\distribution') and create a json file called policies.json.  Within this .json file you are able to set policies that will be applied to the instance of Firefox when launched.  I have created a file which disables all auto updates and limits the domains that can be visited by Firefox to exclusively those needed for flash within my organisation.  A copy of this json file has been provided as an example in the 'files' container of this repo, however you will need to modify the domains listed under "WebsiteFilter" or you will not be able to browse to any other domain.
 
 Contact
-=======
+-------
 
 
 **Project Link** - https://github.com/s3748807/flashworkaround
