@@ -26,12 +26,20 @@ Installation
 ------------
 
 1. Fully uninstall any existing versions of Mozilla Firefox, including manually deleting any data that may be found in **%USERPROFILE%\AppData\Local\Mozilla\Firefox**
+
 2. Reinstall Mozilla Firefox by running **'firefox_installer.exe'** which has been provided for use in the 'files' container of this repo.
+
 3. Uninstall Flash by running **'uninstall_flash_player.exe'** which has been provided for use in the 'files' container of this repo.
-4. Download and unzip **'fp_32.0.0.314_archive.zip'** which has been provided for use in the 'files' container of this repo.
-5. Install the archived copy of Flash v32.0.0.314 NPAPI (for Mozilla Firefox) by running **'fp_32.0.0.314_archive.zip\32_0_r0_314\flashplayer32_0r0_314_winpep.msi'**
+
+4. Download the **'fp_32_0_0_314'** folder which has been provided for use in the 'files' container of this repo.
+
+5. Install the archived copy of Flash v32.0.0.314 NPAPI (for Mozilla Firefox) by running **'\32_0_r0_314\flashplayer32_0r0_314_winpep.msi'**
+
 6. Disable all automatic updates within Mozilla Firefox and installed applications. This can be done by typing about:config into the url bar of Firefox and searching for autoupdate and changing the boolean to false.  There are also update settings under 'Options > Firefox Updates' that should all be disabled, including unchecking the 'Use a background service to install updates' option.
-7. (Optional) Create a folder in the Mozilla root install directory called distribution (i.e. 'C:\Program Files\Legacy Mozilla Firefox\distribution') and create a json file called policies.json.  Within this .json file you are able to set policies that will be applied to the instance of Firefox when launched.  I have created a file which disables all auto updates and limits the domains that can be visited by Firefox to exclusively those needed for flash within my organisation.  A copy of this json file has been provided as an example in the 'files' container of this repo, however you will need to modify the domains listed under "WebsiteFilter" or you will not be able to browse to any other domain.
+
+7. (Optional) Create a folder in the Mozilla root install directory called distribution (i.e. 'C:\Program Files\Legacy Mozilla Firefox\distribution') and create a json file called policies.json to add additional paramaters for Firefox when it is launched. I have created a file which disables all auto updates as well as restricting the domains that can be visited by Firefox to exclusively those needed for flash within my organisation.  A copy of this json file has been provided as an example in the 'files' container of this repo, however you will need to modify the domains listed under "WebsiteFilter" or you will not be able to browse to any other domain.  
+
+For additional details on configuring policies.json, visit https://support.mozilla.org/en-US/kb/customizing-firefox-using-policiesjson
 
 Contact
 -------
