@@ -1,0 +1,10 @@
+{
+  "policies": {
+    "WebsiteFilter": {
+      "Block": ["<all_urls>"],
+      "Exceptions": ["*://*.test.domain.one.com/*", "*://another.domain.test.com.au/*"]
+    }
+  },
+  "DisableAppUpdate": true,
+  "AppAutoUpdate": false
+}
