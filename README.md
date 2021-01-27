@@ -31,7 +31,7 @@ Installation
 
 3. Uninstall Flash by running **'uninstall_flash_player.exe'** which has been provided for use in the 'files' container of this repo.
 
-4. Download the **'fp_32_0_0_314'** folder which has been provided for use in the 'files' container of this repo.
+4. Create a local copy of the **'fp_32_0_0_314'** folder which has been provided for use in the 'files' container of this repo.
 
 5. Install the archived copy of Flash v32.0.0.314 NPAPI (for Mozilla Firefox) by running **'\32_0_r0_314\flashplayer32_0r0_314_winpep.msi'**
 
