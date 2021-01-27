@@ -2,7 +2,7 @@
   "policies": {
     "WebsiteFilter": {
       "Block": ["<all_urls>"],
-      "Exceptions": ["*://*.av.lecture.uq.edu.au/*", "*://portal.uq.innomesh.com.au/*", "*://*.av.aws.uq.edu.au/*"]
+      "Exceptions": ["*://*.test.domain.one.com/*", "*://another.domain.test.com.au/*"]
     }
   },
   "DisableAppUpdate": true,
