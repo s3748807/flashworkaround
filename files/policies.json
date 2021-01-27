@@ -1,0 +1,10 @@
+{
+  "policies": {
+    "WebsiteFilter": {
+      "Block": ["<all_urls>"],
+      "Exceptions": ["*://*.av.lecture.uq.edu.au/*", "*://portal.uq.innomesh.com.au/*", "*://*.av.aws.uq.edu.au/*"]
+    }
+  },
+  "DisableAppUpdate": true,
+  "AppAutoUpdate": false
+}
